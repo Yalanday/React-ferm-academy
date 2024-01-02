@@ -33,4 +33,5 @@ export const AboutText = styled.p`
   margin-top: 24px;
   padding-right: 116px;
   margin-bottom: 40px;
+  font-size: ${(props) => props.theme.fontSizeDefault};
 `;

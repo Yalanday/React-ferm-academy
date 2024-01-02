@@ -14,7 +14,7 @@ html {
     position: relative;
     min-height: 100%;
     font-family: ${(props) => props.theme.fontFamily};
-    font-size: ${(props) => props.theme.fontSize};
+    font-size: ${(props) => props.theme.fontSizeDefault};
     line-height: 27px;
     font-weight: 400;
     color: ${(props) => props.theme.colorBlackForText};

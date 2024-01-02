@@ -26,7 +26,7 @@ export const StyledFeatureCardText = styled.p`
   padding: 0;
   margin: 0;
   text-align: left;
-  font-size: 14px;
+  font-size: ${(props) => props.theme.fontSizeDefault};
   line-height: 25px;
 `;
 
